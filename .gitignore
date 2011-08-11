@@ -1,0 +1,10 @@
+*.swp
+*.swo
+*~
+*.o
+*.zip
+*.Z
+*.gz
+*.bz2
+*.tgz
+*.tbz2
