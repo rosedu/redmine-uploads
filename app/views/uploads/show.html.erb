@@ -74,9 +74,9 @@
   </div>
 
   <% unless @my_files.blank? or  @upload_form.multiple_uploads %>
-    <%= submit_tag l(:button_add), :confirm => l(:text_confirm_add_file) %> 
+    <%= submit_tag l(:button_add_file), :confirm => l(:text_confirm_add_file) %> 
   <% else %>
-    <%= submit_tag l(:button_add) %>
+    <%= submit_tag l(:button_add_file) %>
   <% end %>
   <% end %>
 
