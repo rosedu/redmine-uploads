@@ -38,7 +38,7 @@ Redmine::Plugin.register :redmine_uploads do
 
   menu :project_menu, :uploads, {:controller => 'uploads', :action => 'index'},   {:caption => 'Uploads', :after => :activity, :param => :project_id }
 
-  activity_provider :uploads, :default => false, :class_name => ['Uploads', 'UploadForms']
+  activity_provider :upload_forms, :default => false, :class_name => ['UploadForm']
 end
 
 # Register the plugin for searching
@@ -48,5 +48,5 @@ end
 
 # Register the plugin as activity provider
 Redmine::Activity.map do |activity|
-  activity.register :upload_forms
+   activity.register :upload_forms
 end
