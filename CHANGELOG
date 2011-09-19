@@ -10,4 +10,4 @@
       -Fixed a locales mismatch problem
        The files in /lang , provided for backward compatibility with Rails were not at the same version with those in /config/lang
       -Fixed a bug regarding the activity provider initialization in init.rb 
-       
+      -Small code revision       
