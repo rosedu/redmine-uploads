@@ -1,6 +1,6 @@
 # Romanian strings go here for Rails i18n
 #ățîș
-en:
+ro:
   field_description: "Descriere"
 
   label_author: "Autor"
